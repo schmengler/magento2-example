@@ -10,13 +10,13 @@
          bootstrap="./framework/bootstrap.php"
 >
     <testsuites>
-        <testsuite name=":module-namespace_:module-name Integration Tests">
-            <directory suffix="Test.php">../../../vendor/:vendor/:package/tests/integration</directory>
+        <testsuite name="Schmengler_Example Integration Tests">
+            <directory suffix="Test.php">../../../vendor/schmengler/magento2-example/tests/integration</directory>
         </testsuite>
     </testsuites>
     <filter>
         <whitelist>
-            <directory suffix=".php">../../../vendor/:vendor/:package/src/*</directory>
+            <directory suffix=".php">../../../vendor/schmengler/magento2-example/src/*</directory>
         </whitelist>
     </filter>
     <!-- PHP INI settings and constants definition -->

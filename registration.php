@@ -2,6 +2,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    ':module-namespace_:module-name',
+    'Schmengler_Example',
     __DIR__ . '/src'
 );
